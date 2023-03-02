@@ -45,3 +45,7 @@ body {
   background-color: hsla(var(--hue-1), 100%, 60%, 0.9);
   color: var(--bg-color-2);
 }
+
+a {
+  text-decoration: none;
+}
