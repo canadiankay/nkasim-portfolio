@@ -127,3 +127,6 @@ nav.container {
   
 }
 
+.nav-link:hover{
+  color: var(--heading-color)
+}
