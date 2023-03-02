@@ -39,3 +39,9 @@ body {
 
 }
 
+/* this styling for when the text of the navbar is highlighted with a cursor for ex */
+
+::selection {
+  background-color: hsla(var(--hue-1), 100%, 60%, 0.9);
+  color: var(--bg-color-2);
+}
