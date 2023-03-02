@@ -115,6 +115,7 @@ nav.container {
 }
 
 .nav-link {
+  position: relative;
   display: inline-block;
   margin: 0 1rem;
   text-transform: uppercase;
@@ -125,6 +126,21 @@ nav.container {
   transition: 0.3s;
   /* transition property */
   
+}
+
+/* ::after is used to add cosmetic content to an element */
+.nav-link::after {
+  position: absolute;
+  height: 10px;
+  width: 100%;
+  content: "";
+  border-radius: 5px;
+  background-color: var(--main-color-1);
+  left: -5px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 0.3;
+  transition: 0.3s;
 }
 
 .nav-link:hover{
