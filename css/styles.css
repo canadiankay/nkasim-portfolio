@@ -82,6 +82,10 @@ nav.container {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+}
 
-  
+.links-container{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
 }
