@@ -165,3 +165,7 @@ nav.container {
   transition: 0.3s;
 
 }
+
+.toggle-btn:hover {
+  filter: brightness(97%);
+}
