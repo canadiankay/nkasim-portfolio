@@ -54,7 +54,7 @@ ul {
   list-style: none;
 }
 
-/* Resuable CSS Code */
+/* Resuable CSS Code (we will be using this again)*/
 .container {
   position: relative;
   width: 100%;
@@ -113,3 +113,17 @@ nav.container {
   align-items: center;
   width: 100%;
 }
+
+.nav-link {
+  display: inline-block;
+  margin: 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-color);
+  font-weight: 500;
+  opacity: 0.9;
+  transition: 0.3s;
+  /* transition property */
+  
+}
+
