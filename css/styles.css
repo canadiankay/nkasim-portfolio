@@ -149,3 +149,19 @@ nav.container {
   width: 100%;
   opacity: 0.2;
 }
+
+.toggle-btn {
+  color: var(--heading-color);
+  min-width: 40px;
+  height: 40px;
+  background-color: var(--bg-color-2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+
+}
