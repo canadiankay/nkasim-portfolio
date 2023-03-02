@@ -132,17 +132,20 @@ nav.container {
 .nav-link::after {
   position: absolute;
   height: 10px;
-  width: 100%;
   content: "";
   border-radius: 5px;
   background-color: var(--main-color-1);
   left: -5px;
   bottom: 0px;
   z-index: -1;
-  opacity: 0.3;
   transition: 0.3s;
 }
 
 .nav-link:hover{
   color: var(--heading-color)
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  opacity: 0.2;
 }
