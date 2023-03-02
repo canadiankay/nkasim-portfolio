@@ -63,3 +63,7 @@ header {
   width: 100%;
   z-index:10;
 }
+
+.gap-after-header {
+  height: 1000px;
+}
