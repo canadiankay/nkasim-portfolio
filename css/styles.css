@@ -84,8 +84,15 @@ nav.container {
   flex-wrap: wrap;
 }
 
+
 .links-container{
   flex: 1;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+}
+
+.links-container ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
