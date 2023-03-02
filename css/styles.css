@@ -54,6 +54,16 @@ ul {
   list-style: none;
 }
 
+/* Resuable CSS Code */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 75rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+
 /* NavBar styling */
 
 header {
@@ -66,4 +76,12 @@ header {
 
 .gap-after-header {
   height: 1000px;
+}
+
+nav.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  
 }
